@@ -1,7 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+#Vérifier si le nombre de caractères d’une chaîne de caractères est pair
+mon_nombre = int(input("Entrez un nombre: "))
+if (mon_nombre % 2) == 0:
+   print(str(mon_nombre) + " est Paire")
+else:
+   print(str(mon_nombre)  + " est impair")
 
+
+
+   
 def is_even_len(string: str) -> bool:
     pass
 
